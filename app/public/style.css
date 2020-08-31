@@ -1,0 +1,28 @@
+marquee {
+   font-size: 35px;
+   background-color: brown ;
+   color: white;
+   margin: 30px 40px 10px 30px;
+}
+#rex{border-style: dashed  double  solid dotted;
+      border-width: 1px;
+}
+i{
+    font-size: 20px;
+}
+ h1, h2{
+    text-transform: capitalize ;
+}
+q:lang(no){
+    quotes: "~" "~";
+}
+p:first-line {
+    color: purple;
+    text-indent: 15px;
+}
+h2::after{
+    content: close-quote;
+} 
+h2::before{
+    content: open-quote;
+}
