@@ -1,29 +1,28 @@
 
-.first {
-display: flex;
-background-color:blueviolet;
-padding: 4px 12px;
-justify-content: space-between;
-align-items: center;
-margin-left: 20;
-
- }nav a:first-child{
-   margin-left:10px ;
-   font-size: 23px;
- }.first ul{
+nav{
+  background-color:blueviolet;
+  padding: 10px 0px 20px 10px;
+  justify-content: space-between;
+  align-items: center;
    display: flex;
-   align-items: center;
-  list-style: none;
- }.first ul li{
-   margin-right: 20px;
-  }.first a{
-text-decoration: none;
-color:white;
-}.first a:hover{
-   background-color: gray;
- color: black;
-}
-
+  width: 1330px;
+  align-content: space-between;
+ }nav a, nav input{
+   border-color: white;
+   text-decoration: none;
+   color: white;
+ }nav form{
+margin-left: 20px;
+ }.explore{
+   flex: auto;
+   margin-left:20px ;
+ }#logo{
+  font-size: 20px;
+ }.in{
+   justify-content: space-between;
+  margin-right: 15px;
+ }
+ 
 
 .head{
   margin-top: 90px;

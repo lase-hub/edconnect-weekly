@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -11,37 +11,43 @@
         <div class="first">
             <nav>
                 <a href="index.html" id="logo">Project Explorer</a>
-                <input type="search" placeholder="Search Projects">
-                <input type="button" value="Search">
-                <a href="search.html">Projects</a>
-                <a href="createproject.html" id="create">Submit</a>
+                <form>
+                    <input type="search" placeholder="Search Projects">
+                    <input type="button" value="Search" style="background-color: blueviolet;">
+                </form>
+                <div class="explore">
+                    <a href="search.html" id="create" style="flex: 1;">Projects</a> &nbsp;
+                    <a href="createproject.html" id="create">Submit</a>
+                </div>
+                <div class="in">
+                    <a href="register.html">Sign Up</a> &nbsp;
+                    <a href="login.html">Login</a>
+                </div>
             </nav>
-            <ul>
-                <li> <a href="register.html">Sign Up</a> </li>
-                <li> <a href="login.html">Login</a>
-                </li>
-            </ul>
         </div>
         <div class="pro">
             <h3> Project Gallery</h3>
+            <form>
+                <div class="searchrow">
 
-            <div class="searchrow">
-                <div class="searchterm">
+                    <div class="searchterm">
 
-                    <input type="text" name="searchTerm" placeholder="Search project name, authors, abstract, tags">
-                    <br> <br>
+                        <input type="text" name="searchTerm" placeholder="Search project name, authors, abstract, tags">
+                        <br> <br>
+                    </div>
+                    <div class="authorname">
+                        <input type="submit" value="Search By">
+                        <select name="authorName" id="authorName">
+                            <option value="name" disabled selected hidden>Name</option>
+                            <option value="Ade Bolade">Ade Bolade</option>
+                            <option value="Brian Teleo">Brian Teleo</option>
+                            <option value="James Correy">James Correy</option>
+                        </select> <br> <br>
+                    </div>
+                    <button type="submit">Submit</button>
+
                 </div>
-                <div class="authorname">
-                    <input type="submit" value="Search By">
-                    <select name="authorName" id="authorName">
-                        <option value="name" disabled selected hidden>Name</option>
-                        <option value="Ade Bolade">Ade Bolade</option>
-                        <option value="Brian Teleo">Brian Teleo</option>
-                        <option value="James Correy">James Correy</option>
-                    </select> <br> <br>
-                </div>
-                <button type="submit">Submit</button>
-            </div>
+            </form>
             <div class="list">
                 <div class="pade">
                     <div class="ade">

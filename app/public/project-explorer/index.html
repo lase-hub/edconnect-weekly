@@ -3,26 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    
+
     <div class="main">
         <div class="first">
             <nav>
-                <a href="index.html" id="logo">Project Explorer</a>
-                <input type="search" placeholder="Search Projects">
-                <input type="button" value="Search">
-                <a href="search.html">Projects</a>
-                <a href="createproject.html" id="create">Submit</a>
+                <a href="index.html" id="logo" >Project Explorer</a>
+                <form  >
+                    <input type="search" placeholder="Search Projects">
+                    <input type="button" value="Search" style="background-color: blueviolet;">
+                </form>
+                <div class="explore">
+                    <a href="search.html" id="create" style="flex: 1;">Projects</a> &nbsp;
+                    <a href="createproject.html" id="create">Submit</a>
+                </div>
+                <div class="in">
+                    <a href="register.html">Sign Up</a> &nbsp;
+                    <a href="login.html">Login</a>
+                </div>
             </nav>
-            <ul>
-                <li> <a href="register.html">Sign Up</a> </li>
-                <li> <a href="login.html">Login</a>
-                </li>
-            </ul>
         </div>
 
         <div class=" head">
@@ -31,10 +34,12 @@
                 Project Explorer is a repository for final year projects across all departments at your institution. You
                 can upload and search projects and learn from others.
                 <br> <br>
-                <label>
-                    <input class="button" type="button" value="Get Started">
-                    <input class="but" type="button" value="Login">
-                </label>
+            <form>
+
+                <input class="button" type="button" value="Get Started">
+                <input class="but" type="button" value="Login">
+
+            </form>
             </p>
         </div>
         <div class="body">
@@ -69,16 +74,16 @@
                     <li> #sql</li>
 
                 </ul>
-                
+
             </div>
-            
-            
+
+
         </div>
         <footer>Projet Explorer &copy; 2020 .EdConnect
 
         </footer>
     </div>
-    
+
 </body>
 
 </html>
